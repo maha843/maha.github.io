@@ -1,0 +1,202 @@
+﻿<html>
+<head runat="server">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Football</title>
+    <!-- embeded style sheet -->
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: #111;
+                }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- header -->
+    <header>
+        
+        <h1 align="left"><b><i> Ladies Football Club</i></b></h1>
+    </header>
+
+
+    <br>
+    <br>
+    <section>
+        <center>
+            <!-- box1 big border of the page -->
+            <div id="example1">
+                <nav>
+                    <p1><b><i> welcome to ladies Football Club here you can book for your team with the perfect stadium</i></b> </p1><br>
+                </nav>
+                <br><br />
+                <!-- menu bar -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="r.html">read</a></li>
+                    <li><a href="g.html">Gallery</a></li>
+                    <li><a href="c.html">Contact</a></li>
+                    <li><a href="us.html">About</a></li>
+                    <li><a href="our specials.html">our specials</a></li>
+                </ul>
+
+                <aside>
+                    <!-- photo of most player -->
+                    <table width="100%" align="left">
+                        <tr>
+                            <td> <img src="p.jpg" width="150" height="120"> </td>
+                            <td> <img src="p1.jpg" width="150" height="120"> </td>
+                            <td> <img src="p2.jpg" width="150" height="120"> </td>
+                            <td> <img src="p3.jpg" width="150" height="120"> </td>
+                            <td> <img src="p4.jpg" width="150" height="120"> </td>
+                            <td> <img src="p5.jpg" width="150" height="120"> </td>
+
+
+                        </tr>
+                    </table>
+                </aside>
+
+                <br><br />
+                <br><br />
+                <br><br />
+
+                <!-- page title -->
+                <p> <i><b>Find the appropriate stadium</b></i></p>
+                <p2 class="tit">in Ryiadh city</p2>
+                <article>
+                    <!-- table of avilble staduim -->
+                    <table bgcolor="lightgrey" align="center">
+                        <b>
+                            <tr bgcolor="grey">
+                                <th> number of player allowed</th>
+                                <th>Contact number</th>
+                                <th>location</th>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td> 055 661 6375</td>
+                                <td bgcolor="lightblue"><a href="https://goo.gl/maps/dciMWnrm5hhJVeCQ7"> happiness stadium</a></td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td> 055 448 4466</td>
+                                <td bgcolor="lightblue"><a href="https://goo.gl/maps/PogQUvzs4g2Ws8k47"> football time stadium</a></td>
+                            </tr>
+                            <tr>
+                                <td>flixble</td>
+                                <td> 055 300 6548</td>
+                                <td bgcolor="lightblue"><a href="https://goo.gl/maps/rWjERNHTqynnEFSdA"> professional stadium</a></td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td> 056 384 4417</td>
+                                <td bgcolor="lightblue"><a href="https://goo.gl/maps/XYoT4PxpzNVWdPV87"> Acdmiec stadium</a></td>
+                            </tr>
+                            <br>
+                        </b>
+                    </table>  <br>
+                </article>
+                <br>
+                <br>
+                <br>
+
+
+                <!--box 2 with user information-->
+                <div id="example2" align="left">
+                    <h align="left"><b><i>please enter your team information to book your stadium : </i></b></h>
+                    <br>
+                    <br>
+                    <!-- form uesr information -->
+                    <form action="sp.html">
+                        <label for="fname">First name:</label><br>
+                        <input align="left" type="text" id="fname" name="fname" value=""><br>
+                        <label for="lname">Last name:</label><br>
+                        <input align="left" type="text" id="lname" name="lname" value=""><br><br>
+                        <label for="phone #">phone number:</label><br>
+                        <input align="left" type="text" id="phone #" name="phone #" value=""><br>
+
+
+                        <h align="left"> number of players</h><br>
+                        <input align="left" type="radio" id="16" name="number of players" value="16">
+                        <label for="16">16</label><br>
+                        <input align="left" type="radio" id="20" name="number of players" value="20">
+                        <label for="20">20</label><br>
+                        <input align="left" type="radio" id="flixble" name="number of players" value="flixble">
+                        <label for="flixble">flixble</label><br>
+
+                        <label for="stadium">Choose a stadium:</label>
+
+                        <select name="stadium" id="stadium" multiple>
+                            <option value="happiness stadium">happiness stadium</option>
+                            <option value="football time stadium">football time stadium</option>
+                            <option value="professional stadium">professional stadium</option>
+                            <option value="Acdmiec stadium">Acdmiec stadium</option>
+                        </select>
+
+                        <br><br>
+
+                        <label for="choose a day ">choose a day:</label>
+                        <input align="left" type="datetime-local" id="choose a day" name="choose a day">
+
+
+                        <input type="submit" value="submit" />
+
+                    </form>
+                    )
+
+                </div>
+                <img id="img" src="p3.jpg" width="80" height="80" />
+                <button onclick="change()">click here</button>
+
+                <br>
+            </div>
+
+        </center>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+
+
+    <!-- Footer -->
+    <footer>
+        <a href="us.html"> about us</a>
+        <a href="g.html">Gallery</a>
+        <a href="c.html">contact us</a>
+        
+
+        <!-- End footer -->
+    </footer>
+
+
+</body>
+
+
+</html>
